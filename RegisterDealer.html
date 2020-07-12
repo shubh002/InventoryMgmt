@@ -1,0 +1,56 @@
+<?php
+    
+?>
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+            p.serif {
+                font-family: "Calibri";
+            }
+            </style>
+        </head>
+        <body>
+            <center>
+            <h1 >Register - Dealer</h1>
+            <fieldset>
+                <legend>Dealer Details</legend>
+            <form action="RegisterDealer.html" method ="POST" >
+                    Username:
+                        <input type="text" name="Username" id="Username" required><br>
+                        <span id="UsernameError">he11r2</span>
+                        <br>
+                        Password:
+                        <input type="password" name="Password" required>
+                        <br>
+                        Confirm Password:
+                        <input type="password" name="cpassword" required>
+                        <br>
+                        Dealer name:
+                        <input type="text" name="DealerName" required>
+                        <br>
+                        Dealer Contact:
+                        <input type="text" name="ContactNumber" required>
+                        <br>
+                        Dealer Address:
+                        <textarea name="Address" rows="10" cols="30" required></textarea>
+                        <br>
+                        <br>
+                        Email-id:
+                        <input type="text" name="EmailID" id="email" required><br>
+                        <span id="EmailError">here</span>
+                        <br>
+                        Business Type:
+                        <select name="BusinessType" size="3" multiple required>
+                            <option value="Small">Small</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Large">Large</option>
+                        </select>
+                        <br>
+                <input type="submit" value = "Register">
+            </form>
+            </fieldset>
+        </center>
+        </body>
+    </html>

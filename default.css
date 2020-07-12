@@ -1,0 +1,94 @@
+.Header1{
+    font-family: "Calibri";
+    font-size: 5em;
+    text-align: left;
+    color: #fff;
+    background-color: #d4d4d4;
+}
+td{
+    color: #000000;
+}
+a{
+    font-family: "Calibri";
+    color: white;
+    text-align: right;
+    float: right;
+    padding-right: 30px;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+}
+.Header2{
+    font-family: "Calibri";
+    font-size: 3em;
+    color: #000000;
+}
+.form-class{
+    font-family: "Calibri";
+    font-size: 1.5em;
+    opacity: 1;
+}
+input {
+    width: 20em;
+    border: 2px solid#000000;
+    border-radius: 4px;
+    height: 3em;
+    padding: 2px;
+    padding-left:7px;
+} 
+textarea{
+    width: 20em;
+    border: 2px solid#000000;
+    border-radius: 4px;
+    padding: 2px;
+    height: 10em;
+    padding-left:7px;
+}
+span{
+    color: red;
+}
+select, option{
+    width: 20em;
+    border: 2px solid#000000;
+    border-radius: 4px;
+    height: 3em;
+    padding: 2px;
+    padding-left:7px;
+}
+body {
+    background-image: url("Warehouse.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+/* .Transparent{
+    border: 2px;
+    border-style: solid;
+    width: 700px;
+    background-color: white;
+} */
+th{
+    font-family: Calibri;
+    font-size: 25px;
+
+}
+
+td{
+    font-family: Calibri;
+    font-size: 20px;
+    align-content: center;
+    font-weight: bold ;
+}
+div.Transparent {
+    margin: 30px;
+    width: 700px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    padding-bottom: 40px;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
